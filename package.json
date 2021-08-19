@@ -1,0 +1,40 @@
+{
+    "name": "sq-cli",
+    "version": "1.0.6",
+    "description": "首汽约车项目脚手架",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/baieceo/sq-cli.git"
+    },
+    "bugs": {
+        "url": "https://github.com/baieceo/sq-cli/issues"
+    },
+    "homepage": "https://github.com/baieceo/sq-cli#readme",
+    "bin": {
+        "sq-cli": "./index.js"
+    },
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@octokit/auth-basic": "^1.4.8",
+        "@octokit/rest": "^18.9.1",
+        "chalk": "^4.1.2",
+        "clear": "^0.1.0",
+        "clui": "^0.3.6",
+        "configstore": "^3.1.5",
+        "figlet": "^1.5.2",
+        "inquirer": "^8.1.2",
+        "lodash": "^4.17.21",
+        "minimist": "^1.2.5",
+        "node-gitlab": "^1.6.1",
+        "sfe-gitlab": "^1.0.12",
+        "simple-git": "^2.44.0",
+        "touch": "^3.1.0",
+        "walk": "^2.3.14"
+    }
+}
