@@ -32,7 +32,7 @@
         "lodash": "^4.17.21",
         "minimist": "^1.2.5",
         "node-gitlab": "^1.6.1",
-        "sfe-gitlab": "^1.0.12",
+        "sfe-gitlab": "^1.0.14",
         "simple-git": "^2.44.0",
         "touch": "^3.1.0",
         "walk": "^2.3.14"
